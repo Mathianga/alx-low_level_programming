@@ -13,7 +13,7 @@ int main(void)
 	{
 		while (j <= '9')
 		{
-			if (!(i > j) || i == j)
+			if (!(i > j) || i == j || (i + j) != 18)
 			{
 				putchar(i);
 				putchar(j);
