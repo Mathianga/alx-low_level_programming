@@ -7,31 +7,23 @@
 
 int main(void)
 {
-	int i = '0', j = '1';
+	int a, b;
 
-	while (i <= '9')
+	for (a = '0'; a < '9'; a++)
 	{
-		while (j <= '9')
+		for (b = a + 1; b <= '9'; b++)
 		{
-			if (!(i > j) || i == j || (i + j) != 18)
+			if (b != a)
 			{
-				putchar(i);
-				putchar(j);
-				if (i == '8' && j == '9')
-				{
-					putchar('\n');
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(a);
+				putchar(b);
+				if (a == '8' && b == '9')
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
-			j++;
 		}
-		j = '1';
-		i++;
 	}
+	putchar('\n');
 	return (0);
-
 }
