@@ -37,7 +37,7 @@ int main(void)
 		printf("%lu", after2 % l);
 		after1 = after1 + before1;
 		before1 = after1 - before1;
-		after2 = afte2 + before2;
+		after2 = after2 + before2;
 		before2 = after2 - before2;
 	}
 	printf("\n");
