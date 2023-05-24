@@ -1,1 +1,1 @@
-Here you will find solutions to 0x03-debugging project questions done proceduraly
+This program is to provide solutions to the varieties of question for 0x03. C - Debugging
