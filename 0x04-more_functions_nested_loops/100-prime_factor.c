@@ -7,7 +7,7 @@
  * Return: always 0
  */
 
-int main()
+int main(void)
 {
 	long int n;
 	long int max;
