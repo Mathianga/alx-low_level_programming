@@ -8,11 +8,9 @@
 
 int _isdigit(int c)
 {
-	c = 0;
-	while (c < 10)
+	if (c >= 40 && c <= 57)
 	{
 		return (1);
-		c++;
 	}
 	return (0);
 }
