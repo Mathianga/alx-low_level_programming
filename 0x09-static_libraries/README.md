@@ -1,0 +1,10 @@
+This respository is to provide solutions to 0x09. C - Static libraries project tasks.
+
+	Tasks
+
+0. A library is not a luxury but one of the necessities of life.
+     Create the static library libmy.a containing all the functions listed below:
+
+1. Without libraries what have we? We have no past and no future
+mandatory.
+     Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
